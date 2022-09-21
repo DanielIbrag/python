@@ -51,12 +51,19 @@
 #     print(-100)
 
 # 7. Use a variable to store a number, then write a condition that prints 1776 if the number is less than 0, and prints 1979 otherwise.
-var = 1
-if (var<0):
-    print(1776)
-else:
-    print(1979)
+# var = 1
+# if (var<0):
+#     print(1776)
+# else:
+#     print(1979)
 # 8. Use a variable to store a number, then write a condition that prints 100 if the number equals 100, prints 99 if the number is equal to 99, and prints 0 otherwise.
+var = 99
+if (var == 100):
+    print (100)
+elif (var == 99):
+    print (99)
+else:
+    print (0)
 
 # 9. Use variables to store two numbers, then write a condition that prints 1 if the first number is less than zero and the second number is greater than 0, and prints 0 otherwise.
 
