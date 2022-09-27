@@ -77,13 +77,20 @@
 
 
 # 1. Write a program that uses variables to store a first and last name, then prints the full name in one line using string concatenation (the + operator).
-first_name = input("What is your first name?")
-last_name = input("What is your last name?")
-print("Your first name is " + first_name +" and your last name is " + last_name)
+# first_name = input("What is your first name?")
+# last_name = input("What is your last name?")
+# print("Your first name is " + first_name +" and your last name is " + last_name)
 # 2. Write a program that uses variables to store a first and last name, then prints the full name in one line using string interpolation (the #{} operator).
-print(f'Your first name is {first_name} and your last name is {last_name}')
+# first_name = input("What is your first name?")
+# last_name = input("What is your last name?")
+# print(f'Your first name is {first_name} and your last name is {last_name}')
 
 # 3. Write a program that asks the user to input a word. If the word is "marco", print "polo".
+word = input("Please input a word: ")
+if (word == "marco") or (word == "Marco"):
+  print ("Polo!")
+else:
+  print(word)
 
 # 4. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string concatenation (the + operator).
 
