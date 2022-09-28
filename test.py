@@ -99,6 +99,7 @@ color3 = input(" lastly what is the last color?")
 print ("Your first color is " + color1 + "your second color is " + color2 + " and your last color is "+ color3)
 
 # 5. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string interpolation (the #{} operator).
+print (f"Your first color is {color1} your second color is {color2} and lastly your third color is {color3} ")
 
 # 6. Write a program that asks the user to enter a name. If the name is not "Santa", print "You're not Santa."
 
