@@ -86,13 +86,17 @@
 # print(f'Your first name is {first_name} and your last name is {last_name}')
 
 # 3. Write a program that asks the user to input a word. If the word is "marco", print "polo".
-word = input("Please input a word: ")
-if (word == "marco") or (word == "Marco"):
-  print ("Polo!")
-else:
-  print(word)
+# word = input("Please input a word: ")
+# if (word == "marco") or (word == "Marco"):
+#   print ("Polo!")
+# else:
+#   print(word)
 
 # 4. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string concatenation (the + operator).
+color1 = input("What is your first color?")
+color2 = input("now what is your second color?")
+color3 = input(" lastly what is the last color?")
+print ("Your first color is " + color1 + "your second color is " + color2 + " and your last color is "+ color3)
 
 # 5. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string interpolation (the #{} operator).
 
