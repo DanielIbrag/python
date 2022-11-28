@@ -116,10 +116,39 @@
 # 8. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string interpolation (the #{} operator).
 # print (f"the title of this novel is {title} by bestselling author {author}")
 # 9. Write a program that asks the user to enter a password. If the password is "Joshua", the program responds "Shall we play a game?". For any other password, the program responds "Access denied"
-password = input("Please enter a password: ")
-if (password == "Joshua"):
-  print("Shall we play a game?")
-else:
-  print("Access Denied")
+# password = input("Please enter a password: ")
+# if (password == "Joshua"):
+#   print("Shall we play a game?")
+# else:
+#   print("Access Denied")
 
 # 10. Write a program that uses variables to store the names of three cities, then prints out a sentence using that information with string concatenation (the + operator).
+# city1 = "New York"
+# city2 = "Chicago"
+# city3 = "Denver"
+# print ("last week i started off in " + city1 + " then went over to " + city2 + " and finally threw a party at " + city3 )
+
+# 1. Write a program that asks the user to enter a word, then prints that word with all capital letters.
+string = 'My name is ayush'
+print(string.upper())
+
+# 2. Write a program that asks the user to enter a number, then prints "That's a big number" if the number is greater than 100.
+
+# 3. Write a program that asks the user to enter two numbers, then prints the numbers added together.
+
+# 4. Write a program that asks the user to enter a word, then prints that word in reverse order.
+
+# 5. Write a program that asks the user to enter a number, then prints the number times 10.
+
+# 6. Write a program that asks the user to enter two words, then prints both words on the same line in all capital letters.
+
+# 7. Write a program that asks the user to enter a word, then prints the number of letters in the word.
+
+# 8. Write a program that asks the user to enter a number, then prints "That's a negative number" if the number is less than 0.
+
+# 9. Write a program that asks the user to enter two numbers, then prints the two numbers multiplied together.
+
+# 10. Write a program that asks the user to enter a word, then prints "That's a long word" if the word has more than 5 letters.
+
+
+
