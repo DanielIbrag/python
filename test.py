@@ -129,12 +129,22 @@
 # print ("last week i started off in " + city1 + " then went over to " + city2 + " and finally threw a party at " + city3 )
 
 # 1. Write a program that asks the user to enter a word, then prints that word with all capital letters.
-string = 'My name is ayush'
-print(string.upper())
+# string = 'My name is ayush'
+# print(string.upper())
 
 # 2. Write a program that asks the user to enter a number, then prints "That's a big number" if the number is greater than 100.
+# number = int(input("Please enter a big number: "))
+# # number = int(number)
+# if (number > 100):
+#   print("That's a big number!")
+# else:
+#     print("that's a tiny number, think bigger!")
 
 # 3. Write a program that asks the user to enter two numbers, then prints the numbers added together.
+number1 = int(input("Please enter the first number: "))
+number2 = int(input("please enter the second number: "))
+print(number1+number2)
+
 
 # 4. Write a program that asks the user to enter a word, then prints that word in reverse order.
 
