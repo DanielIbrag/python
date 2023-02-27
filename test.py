@@ -141,12 +141,15 @@
 #     print("that's a tiny number, think bigger!")
 
 # 3. Write a program that asks the user to enter two numbers, then prints the numbers added together.
-number1 = int(input("Please enter the first number: "))
-number2 = int(input("please enter the second number: "))
-print(number1+number2)
+# number1 = int(input("Please enter the first number: "))
+# number2 = int(input("please enter the second number: "))
+# print(number1+number2)
 
 
 # 4. Write a program that asks the user to enter a word, then prints that word in reverse order.
+string = input("please put a word or phrase: ")
+reverse_string = string[::-1]
+print(reverse_string)
 
 # 5. Write a program that asks the user to enter a number, then prints the number times 10.
 
