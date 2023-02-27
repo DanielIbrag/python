@@ -147,11 +147,14 @@
 
 
 # 4. Write a program that asks the user to enter a word, then prints that word in reverse order.
-string = input("please put a word or phrase: ")
-reverse_string = string[::-1]
-print(reverse_string)
+# string = input("please put a word or phrase: ")
+# reverse_string = string[::-1]
+# print(reverse_string)
 
 # 5. Write a program that asks the user to enter a number, then prints the number times 10.
+number = int(input("Please enter a number and i'll multiply it times 10: "))
+number = number*10
+print(number)
 
 # 6. Write a program that asks the user to enter two words, then prints both words on the same line in all capital letters.
 
